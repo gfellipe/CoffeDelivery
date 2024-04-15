@@ -39,6 +39,7 @@ export const ProductCard: React.FC<CardProps> = ({
       price,
       quantity,
       image,
+      delivery: "",
     };
     dispatch(addToCart(payload));
     toast.success("Added to cart");
